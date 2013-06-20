@@ -6,7 +6,8 @@ alias bR="brew uninstall "
 alias bC="brew cleanup && brew prune"
 alias bI="brew install -v"
 alias bF="brew info "
-alias uG="git add . && git commit -m 'update by my' && git push origin master"
+alias updateGithub="cd /Users/sennychu/dotfiles && git add . && git commit -m 'update by my' && git push origin master"
+alias updateBash="source /Users/sennychu/dotfiles/bootstrap.sh -f"
 
 
 

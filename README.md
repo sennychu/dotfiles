@@ -7,7 +7,7 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/sennychu/s-dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/sennychu/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
@@ -27,14 +27,14 @@ set -- -f; source bootstrap.sh
 To install these dotfiles without Git:
 
 ```bash
-cd; curl -#L https://github.com/sennychu/s-dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
+cd; curl -#L https://github.com/sennychu/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
 ```
 
 To update later on, just run that command again.
 
 ### Specify the `$PATH`
 
-If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as [detecting which version of `ls` is being used](https://github.com/sennychu/s-dotfiles/blob/aff769fd75225d8f2e481185a71d5e05b76002dc/.aliases#L21-26)) takes place.
+If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as [detecting which version of `ls` is being used](https://github.com/sennychu/dotfiles/blob/aff769fd75225d8f2e481185a71d5e05b76002dc/.aliases#L21-26)) takes place.
 
 Here’s an example `~/.path` file that adds `~/utils` to the `$PATH`:
 
@@ -59,7 +59,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/sennychu/s-dotfiles/fork_select) instead, though.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/sennychu/dotfiles/fork_select) instead, though.
 
 ### Sensible OS X defaults
 
@@ -80,11 +80,11 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/sennychu/s-dotfiles/issues)!
+[welcome](https://github.com/sennychu/dotfiles/issues)!
 
 ## Author
-http://sennychu.no-ip.biz
+http://sennychu.github.io
 
 ## Thanks to…
 
-* anyone who [contributed a patch](https://github.com/sennychu/s-dotfiles/contributors) or [made a helpful suggestion](https://github.com/sennychu/s-dotfiles/issues)
+* anyone who [contributed a patch](https://github.com/sennychu/dotfiles/contributors) or [made a helpful suggestion](https://github.com/sennychu/dotfiles/issues)

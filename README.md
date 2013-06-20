@@ -1,6 +1,6 @@
 # SennyChu’s dotfiles
 
-## Installation
+## Installation v.0.1
 
 ### Using Git and the bootstrap script
 

@@ -23,3 +23,9 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH

@@ -29,3 +29,8 @@ export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 
 ## export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+export PATH=/usr/local/mysql/bin \
+	        /usr/local/share/npm/bin \
+	        /Users/Shared/Dropbox/myScript \
+			:$PATH

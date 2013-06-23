@@ -3,6 +3,7 @@ for another_bin in \
     $HOME/bin \
     $HOME/.rbenv/bin \
 	/usr/local/mysql/bin \
+	/usr/local/share/npm/bin \
 	/Users/Shared/Dropbox/myScript
 do
     [[ -e $another_bin ]] && export PATH=$another_bin:$PATH

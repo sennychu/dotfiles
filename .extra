@@ -1,12 +1,12 @@
 # PATH additions
-for another_bin in \
+for sennychu_bin in \
     $HOME/bin \
     $HOME/.rbenv/bin \
 	/usr/local/mysql/bin \
 	/usr/local/share/npm/bin \
 	/Users/Shared/Dropbox/myScript
 do
-    [[ -e $another_bin ]] && export PATH=$another_bin:$PATH
+    [[ -e $sennychu_bin ]] && export PATH=$sennychu_bin:$PATH
 done
 
 

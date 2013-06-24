@@ -14,8 +14,8 @@ alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 
 alias brew='brew growl'
 alias ls='ls -al'
-
-
+alias fD='sudo find / -name '
+alias pS='sudo ps ax | grep '
 
 
 

@@ -44,6 +44,7 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
+echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
@@ -90,13 +91,10 @@ defaults write com.apple.helpviewer DevMode -bool true
 # Commented out, as this is known to cause problems when saving files in
 # Adobe Illustrator CS5 :(
 #echo "0x08000100:0" > ~/.CFUserTextEncoding
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
-
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Restart automatically if the computer freezes
 #systemsetup -setrestartfreeze on
@@ -140,7 +138,6 @@ echo "..........................................................................
 # (e.g. enable Tab in modal dialogs)
 ##defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Enable access for assistive devices
 echo -n 'a' | sudo tee /private/var/db/.AccessibilityAPIEnabled > /dev/null 2>&1
@@ -153,7 +150,6 @@ sudo osascript -e 'tell application "System Events" to set UI elements enabled t
 ##defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 # Follow the keyboard focus while zoomed in
 ##defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Disable press-and-hold for keys in favor of key repeat
 ##defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false

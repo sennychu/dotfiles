@@ -18,6 +18,7 @@ sudo scutil --set ComputerName "sennymbp"
 sudo scutil --set HostName "sennychu.info"
 sudo scutil --set LocalHostName "sennychu.info"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "sennymbp"
+echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Set standby delay to 24 hours (default is 1 hour)
 # sudo pmset -a standbydelay 86400
@@ -44,7 +45,6 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)

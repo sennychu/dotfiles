@@ -9,20 +9,20 @@ alias bF="brew info "
 alias bS="brew search "
 alias updateGithub="cd /Users/sennychu/dotfiles && git add . && git commit -m 'update by my' && git push origin master"
 alias updateBash="source /Users/sennychu/dotfiles/bootstrap.sh -f"
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+#alias mysql=/usr/local/mysql/bin/mysql
+#alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 
 #alias brew='brew growl'
 alias ls='ls -al'
 alias fD='sudo find / -name '
 alias pS='sudo ps ax | grep '
-alias apache-start='sudo /usr/local/bin/apachectl -k start'
-alias apache-stop='sudo /usr/local/bin/apachectl -k graceful-stop'
-alias apache-restart='sudo /usr/local/bin/apachectl -k graceful'
+#alias apache-start='sudo /usr/local/bin/apachectl -k start'
+#alias apache-stop='sudo /usr/local/bin/apachectl -k graceful-stop'
+#alias apache-restart='sudo /usr/local/bin/apachectl -k graceful'
 
 
-alias ramdisk_setup='/path/to/ramdisk_setup.sh'
-alias mysql_setup='/path/to/mysql_setup.sh'
+#alias ramdisk_setup='/path/to/ramdisk_setup.sh'
+#alias mysql_setup='/path/to/mysql_setup.sh'
 
 
 

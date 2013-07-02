@@ -8,7 +8,6 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.osx` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo "...................................................................................................................................................................................................................................................................................................................."
 
 ###############################################################################
 # General UI/UX                                                               #
@@ -138,6 +137,8 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 # (e.g. enable Tab in modal dialogs)
 ##defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+echo "...................................................................................................................................................................................................................................................................................................................."
+
 # Enable access for assistive devices
 echo -n 'a' | sudo tee /private/var/db/.AccessibilityAPIEnabled > /dev/null 2>&1
 sudo chmod 444 /private/var/db/.AccessibilityAPIEnabled
@@ -149,6 +150,7 @@ sudo osascript -e 'tell application "System Events" to set UI elements enabled t
 ##defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 # Follow the keyboard focus while zoomed in
 ##defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Disable press-and-hold for keys in favor of key repeat
 ##defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false

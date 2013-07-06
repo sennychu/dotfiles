@@ -77,6 +77,17 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./.brew
 ```
 
+### Update dotfiles from local to githuh repo
+```cd ~/dotfiles
+ git add -A
+ git commit -m "update by sennychu, at: $(date '+%S:%M:%H %/ %d-%m-%Y')"
+ git push origin master
+```
+
+#or add alias
+```alias updateBash="source /Users/sennychu/dotfiles/bootstrap.sh -f; cd /Users/sennychu/dotfiles; git add -A; git commit -m 'update by sennychu, at: $(date '+%S:%M:%H %/ %d-%m-%Y')'; git push origin master;"
+```
+
 ## Feedback
 
 Suggestions/improvements

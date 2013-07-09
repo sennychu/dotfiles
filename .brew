@@ -26,7 +26,7 @@ brew install narwhal
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-brew install php54
+#brew install php54
 
 # These two formulae didn’t work well last time I tried them:
 #brew install homebrew/dupes/vim
@@ -61,7 +61,7 @@ function installcask() {
 	fi
 }
 
-installcask dropbox
+#installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
 installcask imagealpha

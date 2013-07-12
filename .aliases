@@ -40,7 +40,7 @@ alias pS='sudo ps ax | grep '
 #alias mysql_setup='/path/to/mysql_setup.sh'
 
 #start postgres the database server using:
-pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+#pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

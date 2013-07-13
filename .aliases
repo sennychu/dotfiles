@@ -10,7 +10,7 @@ alias bS="brew search "
 alias cDD="cd ~/dotfiles;open -g ."
 
 #ssh remote godaddy server
-alias gDD="ssh -v 50.63.51.1"
+alias gDD="ssh  50.63.51.1"
 
 # my bash update command
 alias updateBash="source ~/dotfiles/bootstrap.sh -f; cd ~/dotfiles; git add -A; git commit -m 'update by sennychu, at: $(date '+%S:%M:%H %/ %d-%m-%Y')'; git push origin master;"

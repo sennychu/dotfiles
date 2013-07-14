@@ -28,12 +28,10 @@ alias apache-restart="sudo /usr/local/apache/bin/apachectl -k graceful"
 
 
 #alias brew='brew growl'
-alias ls='ls -al'
+alias lS='ls -al'
 alias fD='sudo find / -name '
 alias pS='sudo ps ax | grep '
-#alias apache-start='sudo /usr/local/bin/apachectl -k start'
-#alias apache-stop='sudo /usr/local/bin/apachectl -k graceful-stop'
-#alias apache-restart='sudo /usr/local/bin/apachectl -k graceful'
+
 
 
 #alias ramdisk_setup='/path/to/ramdisk_setup.sh'

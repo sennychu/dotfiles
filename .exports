@@ -30,7 +30,7 @@ export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 
 ## export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-export PATH=/usr/local/php/bin:/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/share/npm/bin:~/Dropbox/myScript:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/autoconf/bin:$PATH
+export PATH=/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/share/npm/bin:~/Dropbox/myScript:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/autoconf/bin:$PATH
 
 export MANPATH=/usr/local/php/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
 

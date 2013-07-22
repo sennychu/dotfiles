@@ -14,10 +14,10 @@ sudo -n true;sleep 60; #kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "smbp"
-sudo scutil --set HostName "smbp"
-sudo scutil --set LocalHostName "smbp"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "smbp"
+sudo scutil --set ComputerName "sensesMBP"
+sudo scutil --set HostName "sensesMBP"
+sudo scutil --set LocalHostName "sensesMBP"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "sensesMBP"
 echo "...................................................................................................................................................................................................................................................................................................................."
 
 # Set standby delay to 24 hours (default is 1 hour)

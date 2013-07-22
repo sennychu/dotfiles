@@ -20,9 +20,9 @@ alias updateBash="source ~/dotfiles/bootstrap.sh -f; cd ~/dotfiles; git add -A; 
 #alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 
 # create for http://mac-dev-env.patrickbougie.com/apache/
-alias apache-start="sudo /usr/local/apache/bin/apachectl -k start"
-alias apache-stop="sudo /usr/local/apache/bin/apachectl -k graceful-stop"
-alias apache-restart="sudo /usr/local/apache/bin/apachectl -k graceful"
+#alias apache-start="sudo /usr/local/apache/bin/apachectl -k start"
+#alias apache-stop="sudo /usr/local/apache/bin/apachectl -k graceful-stop"
+#alias apache-restart="sudo /usr/local/apache/bin/apachectl -k graceful"
 
 
 
@@ -49,10 +49,10 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+#alias d="cd ~/Documents/Dropbox"
+#alias dl="cd ~/Downloads"
+#alias dt="cd ~/Desktop"
+#alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -92,7 +92,7 @@ alias gurl='curl --compressed'
 alias week='date +%V'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias updateAll='source /Users/sennychu/dotfiles/bootstrap.sh -f; sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
+alias updateAll='source ~/dotfiles/bootstrap.sh -f; sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
 
 alias updateOSX='sudo softwareupdate -i -a'
 
